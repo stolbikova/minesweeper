@@ -5,9 +5,6 @@ import { parse } from './utils';
 
 const socket = new WebSocket("wss://hometask.eg1236.com/game1/");
 
-// Passwords
-// ThisWasEasy
-
 const INITIAL_LEVEL = 1
 
 class App extends Component {
