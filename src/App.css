@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.row {
+  display: inline-block;
+  margin-right: 2px;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+
+  border: solid gray;
+
+  font-size: 19px;
+}
+
+.status {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.status::before {
+  content: "|";
+}
+.status::after {
+  content: "|";
+}
+
+.App-header {
+  margin-bottom:  20px;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+
+.row-wrapper {
+  white-space: nowrap;
+}
+
+.intent{
+  background-color: gray;
+}
